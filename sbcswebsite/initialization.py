@@ -13,7 +13,7 @@ def initialize(directory):
 
                 _dir = os.path.abspath(os.path.dirname(__file__))
                 DEBUG = True
-                APP_SECRET = {0}
+                SECRET_KEY = {0}
                 SQLALCHEMY_DATABASE_URI = "sqlite:///{1}"
                 FACEBOOK_APP_ID = "FACEBOOK_APP_ID here"
                 FACEBOOK_APP_SECRET = "FACEBOOK_APP_SECRET here"

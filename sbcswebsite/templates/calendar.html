@@ -10,7 +10,10 @@
 
 $(document).ready(function() {
     $("#event-calendar").fullCalendar({
-        events: "https://www.google.com/calendar/feeds/sbcs.acm%40gmail.com/public/full/",
+    	googleCalendarApiKey: 'AIzaSyCLb19EbMmh7OXy0q-HBiRuQK9_pvi00tI',
+    	events: {
+            googleCalendarId: 'sbcs.acm@gmail.com',
+        },
         height: 500,
     });
 });
